@@ -5,8 +5,11 @@
 }
 
 .ui.cards > .card > .image {
-  height: 250px;
-  padding: 20px;
+  /* min-height: 300px;
+  max-height: 300px;
+  min-width: 200px; */
+
+  /* padding: 20px; */
   background: #fff;
   margin: auto;
 }
@@ -14,27 +17,30 @@
   height: 100%;
   max-width: 100%;
   width: auto;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px,
+    rgba(6, 24, 44, 0.65) 0px 4px 6px -1px,
+    rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 }
 .ui.cards > .card > .content > .header {
   height: 48px;
   overflow: hidden;
   margin-bottom: 5px;
-}
-.ui.cards > .card > .content > .description {
-  height: 36px;
-  margin-bottom: 0px;
-  overflow: hidden;
-}
-.ui.cards > .card .meta.rating {
-  margin-bottom: 5px;
-  font-size: 18px;
-  color: #333;
-  font-weight: 600;
+  color: #222;
+  padding: 10px;
 }
 
-.ui.cards > .card .meta > a {
-  font-size: 1.3rem;
+.ui.cards > .card .meta.rating {
+  margin-bottom: 5px;
+  font-size: 16px;
   color: #222;
+  font-weight: 400;
+  padding: 10px;
+}
+
+.ui.cards > .card .meta.rating > a {
+  font-size: 16px;
+  color: #222;
+  padding: 10px;
 }
 
 .ui.menu.fixed {
@@ -45,49 +51,10 @@
 .ui.grid.container {
   margin-top: 45px;
 }
-
-.ui.grid > .row {
-  background: #fff;
-}
-.ui.grid > .row > .column.lp {
-  padding: 20px 40px 20px 20px;
-  align-self: flex-start !important;
-}
-.ui.grid > .row > .column.rp {
-  padding: 20px 20px 20px 40px;
-  text-align: left;
-  align-self: flex-start !important;
-}
-
-.ui.grid > .row > .column > img,
-.ui.grid > .row > img {
-  height: 100%;
-}
-.ui.placeholder .header:not(:first-child):before,
-.ui.placeholder .image:not(:first-child):before,
-.ui.placeholder .paragraph:not(:first-child):before {
-  display: none;
-}
-
-.ui.label,
-.ui.labels .label {
-  font-size: 22px;
-}
-
-.column.rp h1 {
-  color: #333;
-}
-.column.rp p {
-  font-size: 18px;
-  color: #777;
-}
-.ui.placeholder.segment .column .button,
-.ui.placeholder.segment .column .field,
-.ui.placeholder.segment .column textarea,
-.ui.placeholder.segment .column > .ui.input {
-  background-color: #ff3e6c;
-  border: 1px solid #ff3e6c;
-  color: #fff;
-  font-size: 18px;
-  margin-left: 0;
+.ui.button {
+  background-color: #3d7c38;
+  color: #222;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 10px;
+  margin-left: 80px;
 }
