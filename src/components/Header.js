@@ -5,8 +5,7 @@ const Header = () => {
   return (
     <div className="ui fixed menu">
       <div className="ui container center">
-        {/* <img  src={img} alt="dogorama-logo" /> */}
-        <h1>Dogorama</h1>
+        <img src={img} alt="dogorama-logo" />
       </div>
     </div>
   );
