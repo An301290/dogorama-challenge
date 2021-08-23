@@ -2,7 +2,6 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Header from "./components/Header";
 import ParkListing from "./components/ParkListing";
-// import ParkRatings from "./components/ParkRatings";
 
 function App() {
   return (
@@ -10,8 +9,9 @@ function App() {
       <Router>
         <Header />
         <Switch>
-          <Route path="/" exact component={ParkListing} />
-          {/* <Route path="/product/:productId" component={ParkRatings} /> */}
+          <Route path="/" exact>
+            <ParkListing />
+          </Route>
           <Route>404 Not Found!</Route>
         </Switch>
       </Router>

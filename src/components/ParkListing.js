@@ -16,7 +16,6 @@ const ParkListing = () => {
       .catch((err) => {
         console.log("Err", err);
       });
-    console.log(response.data.parks);
     dispatch(setParks(response.data.parks));
   };
   useEffect(() => {
@@ -24,9 +23,16 @@ const ParkListing = () => {
   }, []);
   console.log("Parks:", parks);
   return (
-    <div className="ui grid container">
-      <ParkComponent />
-    </div>
+    <>
+      <div className="mainTitle">
+        <h1>Best Dog Parks</h1>
+        <h2>🐶</h2>
+        <h2>Leipzig</h2>
+      </div>
+      <div className="ui grid container centered">
+        <ParkComponent />
+      </div>
+    </>
   );
 };
 

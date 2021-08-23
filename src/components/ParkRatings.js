@@ -10,7 +10,6 @@ const ParkRatings = ({ id }) => {
       .catch((err) => {
         console.log("Err", err);
       });
-    console.log(response.data.parks[0].averageRating);
     setRating(response.data.parks[0].averageRating);
   };
   useEffect(() => {
