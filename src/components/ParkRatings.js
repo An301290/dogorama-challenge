@@ -18,7 +18,11 @@ const ParkRatings = ({ id }) => {
   }, []);
   return (
     <div>
-      <h1>{rating} out of 5 paws</h1>
+      {rating ? (
+        <h1>{Math.round(rating * 10) / 10} out of 5 paws</h1>
+      ) : (
+        <h1>No ratings yet</h1>
+      )}
     </div>
   );
 };
