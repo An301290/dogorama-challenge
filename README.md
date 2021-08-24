@@ -2,6 +2,13 @@
 
 the main goal of the challenge was to display information from their API. Listing the most relevant information in a single-page application.
 
+## Built With
+
+JavaScript,
+React,
+Axios,
+React Redux
+
 ## Screenshots
 
 ![Screen Shot 2021-08-24 at 09 22 49](https://user-images.githubusercontent.com/69522224/130574440-08722ff2-e970-4f8f-bdab-343796704c25.png)
@@ -33,13 +40,6 @@ For running the server and app together I am using concurrently this helps a lot
 For running the server file on you can use this command.
 
 npm run serve
-
-## Built With
-
-JavaScript
-React
-Axios
-React Redux
 
 ### Author 
 
