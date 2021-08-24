@@ -7,13 +7,13 @@ export const setParks = (parks) => {
   };
 };
 
-export const selectedProduct = (park) => {
+export const selectedPark = (park) => {
   return {
     type: ActionTypes.SELECTED_PARKS,
     payload: park,
   };
 };
-export const removeSelectedProduct = () => {
+export const removeSelectedPark = () => {
   return {
     type: ActionTypes.REMOVE_SELECTED_PRODUCT,
   };
