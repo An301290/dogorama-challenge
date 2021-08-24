@@ -1,6 +1,6 @@
 # Dogorama-challenge
 
-the main goal of the challenge was to display information from the API. Listing the most relevant in a single-page application.
+the main goal of the challenge was to display information from their API. Listing the most relevant information in a single-page application.
 
 ## Screenshots
 
