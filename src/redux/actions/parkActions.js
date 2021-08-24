@@ -15,6 +15,6 @@ export const selectedPark = (park) => {
 };
 export const removeSelectedPark = () => {
   return {
-    type: ActionTypes.REMOVE_SELECTED_PRODUCT,
+    type: ActionTypes.REMOVE_SELECTED_PARK,
   };
 };
