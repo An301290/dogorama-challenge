@@ -1,71 +1,53 @@
-# Getting Started with Create React App
+# Dogorama-challenge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+the main goal of the challenge was to display information from the API. Listing the most relevant in a single-page application.
 
-## Available Scripts
+## Screenshots
+
+![Screen Shot 2021-08-24 at 09 14 53](https://user-images.githubusercontent.com/69522224/130573565-dd59c2ba-e830-40ed-8a0d-eae350a9785b.png)
+![Screen Shot 2021-08-24 at 09 15 14](https://user-images.githubusercontent.com/69522224/130573594-0b3e266c-27a3-4949-ada7-1c3bfe66dfd2.png)
+![Screen Shot 2021-08-24 at 09 16 11](https://user-images.githubusercontent.com/69522224/130573625-5530e94a-23a4-4d30-aac4-7151669c82ca.png)
+
+### `Available Commands`
 
 In the project directory, you can run:
 
-### `npm start`
+npm start" : "react-scripts start",
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The app is built using create-react-app so this command Runs the app in Development mode. Open http://localhost:3000 to view it in the browser. You also need to run the server file as well to completely run the app. The page will reload if you make edits. You will also see any lint errors in the console.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+"npm run build": "react-scripts build",
 
-### `npm test`
+Builds the app for production to the build folder. It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes. Your app will be ready to deploy!
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+"npm run test": "react-scripts test",
 
-### `npm run build`
+Launches the test runner in the interactive watch mode.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+"npm run dev": "concurrently "nodemon server" "npm run start",
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+For running the server and app together I am using concurrently this helps a lot in the MERN application as it runs both the server (client and server) concurrently. So you can work on them both together.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+"serve": "node server"
 
-### `npm run eject`
+For running the server file on you can use this command.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+npm run serve
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Built With
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+JavaScript
+React
+Axios
+React Redux
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Author 
 
-## Learn More
+Angel Samano Hamud 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Support 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions, issues, and feature requests are welcome!
 
-### Code Splitting
+Give a ⭐️ if you like this project!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# dogorama-challenge
