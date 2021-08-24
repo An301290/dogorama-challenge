@@ -4,7 +4,7 @@ the main goal of the challenge was to display information from the API. Listing 
 
 ## Screenshots
 
-![Screen Shot 2021-08-24 at 09 21 53](https://user-images.githubusercontent.com/69522224/130574321-716a7a8f-7374-444f-8f9d-a5b03cadd560.png)
+![Screen Shot 2021-08-24 at 09 22 49](https://user-images.githubusercontent.com/69522224/130574440-08722ff2-e970-4f8f-bdab-343796704c25.png)
 ![Screen Shot 2021-08-24 at 09 15 14](https://user-images.githubusercontent.com/69522224/130573594-0b3e266c-27a3-4949-ada7-1c3bfe66dfd2.png)
 ![Screen Shot 2021-08-24 at 09 16 11](https://user-images.githubusercontent.com/69522224/130573625-5530e94a-23a4-4d30-aac4-7151669c82ca.png)
 
