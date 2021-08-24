@@ -9,8 +9,6 @@ const ParkComponent = () => {
       id,
       images,
       name,
-      category,
-      creationDate,
       postcode,
       city,
       country,
