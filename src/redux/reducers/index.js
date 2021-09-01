@@ -3,6 +3,7 @@ import { parkReducer } from "./parkReducer";
 
 const reducers = combineReducers({
   allParks: parkReducer,
+  
 });
 
 export default reducers;

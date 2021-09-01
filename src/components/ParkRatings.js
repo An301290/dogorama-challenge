@@ -5,12 +5,14 @@ const ParkRatings = ({ id }) => {
   const [rating, setRating] = useState(0);
   console.log(id);
   const fetchPark = async () => {
-    const response = await axios
-      .get(`https://functions.dogorama-services.com/getParks?id=${id}`)
-      .catch((err) => {
-        console.log("Err", err);
-      });
-    setRating(response.data.parks[0].averageRating);
+    try {
+      const response = await axios.get(
+        `https://functions.dogorama-services.com/getParks?id=${id}`
+      );
+      setRating(response.data.parks[0].averageRating);
+    } catch (error) {
+      console.log("Err", error);
+    }
   };
   useEffect(() => {
     fetchPark();

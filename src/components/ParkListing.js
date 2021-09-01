@@ -9,14 +9,14 @@ const ParkListing = () => {
   console.log(parks);
   const dispatch = useDispatch();
   const fetchParks = async () => {
-    const response = await axios
-      .get(
+    try {
+      const response = await axios.get(
         "https://functions.dogorama-services.com/getParks?postcodecity=04105 Leipzig&country=DE"
-      )
-      .catch((err) => {
-        console.log("Err", err);
-      });
-    dispatch(setParks(response.data.parks));
+      );
+      dispatch(setParks(response.data.parks));
+    } catch (error) {
+      console.log("Err", error);
+    }
   };
   useEffect(() => {
     fetchParks();
